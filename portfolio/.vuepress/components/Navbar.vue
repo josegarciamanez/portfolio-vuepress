@@ -8,7 +8,7 @@
   
     <nav v-if="navLinks" class="navigation left desktop-nav">
       <ul>
-        <router-link v-for="nav in navLinks" :key="nav.text" v-if="nav.position === 'left' && !nav.external" tag="li" :to="nav.link" active-class="active" v-text="nav.text" exact />
+        <router-link v-for="nav in navLinks" :key="nav.text" v-if="nav.position === 'left' && !nav.external" tag="li" :to="nav.link" active-class="active" v-text="nav.text" />
         <li v-for="nav in navLinks" v-if="nav.position === 'left' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
@@ -102,11 +102,12 @@
   }
   .logo {
     position: absolute;
-    width: 3rem;
-    height: 3rem;
+    width: 8.4rem;
+    height: 6rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -160,7 +161,7 @@
     width: 100vw;
     height: 100vh;
     padding: 2rem;
-    transform: translateY(-100%);
+    transform: translateX(100%);
     transition: transform 0.35s ease-in-out;
     text-align: center;
     font-size: 2rem;
@@ -226,6 +227,16 @@
     }
     .mobile-nav {
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+     .logo {
+      position: relative;
+      float: left !important;
+      width: 5rem;
+      height: 3.5rem;
+      top: 30px;
     }
   }
 </style>

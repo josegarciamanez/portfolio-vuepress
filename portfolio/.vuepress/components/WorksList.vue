@@ -36,12 +36,13 @@
 
   .post {
     position: relative;
-    width: 100%;
-    height: 70vh;
+    float: left;
+    width: 50%;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 5vw;
+    /* margin-bottom: 5vw; */
     cursor: pointer;
   }
 
@@ -69,5 +70,10 @@
     margin-left: 0.5rem;
     font-size: 0.8rem;
   }
-
+@media only screen and (max-width: 767px) {
+  .post {
+    width: 100%;
+    height: 40vh;
+  }
+}
 </style>

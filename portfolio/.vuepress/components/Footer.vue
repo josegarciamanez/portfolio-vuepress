@@ -4,6 +4,7 @@
 
 <style scoped>
   .text {
+    clear: both;
     display: block;
     font-size: 0.8rem;
     text-align: left;

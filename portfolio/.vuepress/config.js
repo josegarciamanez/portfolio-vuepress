@@ -1,9 +1,9 @@
 module.exports = {
-    title: "José García Máñez",
+    title: "José García Máñez | Portfolio",
     description: "Web Developer",
     base: "/",
     themeConfig: {
-        logo: "",
+        logo: "upload/logo.jpg",
         footer: "Ⓒ josegarciamanez",
         nav: [
             { text: "Portfolio", link: "/", position: "left", external: false },

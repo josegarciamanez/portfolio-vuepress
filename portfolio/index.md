@@ -1,6 +1,6 @@
 ---
 works_index: true
-hero_text: "<strong>José García Máñez</strong>. Web Developer"
+hero_text: "<strong>José García Máñez</strong><br>Web Developer"
 title: Portfolio
 
 ---

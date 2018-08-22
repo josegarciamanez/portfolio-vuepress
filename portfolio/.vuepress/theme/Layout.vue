@@ -9,7 +9,7 @@
       <div
         v-if="$route.path === '/'"
         :style="{
-          marginTop: '14vw'
+          marginTop: '-10vw'
         }"
       >
         <Content/>
@@ -93,7 +93,7 @@
   body {
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
-    background: #fff;
+    background:linear-gradient(to right, #2ebf91, #8360c3);;
     color: var(--color-black);
   }
 
@@ -106,12 +106,6 @@
 
   .container {
     padding: 0 5vw;
-  }
-
-  .journal-list, .single-journal {
-    width: 800px;
-    max-width: 100%;
-    margin: 0 auto;
   }
 
   h1,h2,h3,h4,h5,h6,p {
@@ -157,5 +151,9 @@
     padding: 0.05rem 0.25rem;
     font-weight: 400;
   }
-
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 3vw;
+  }
+}
 </style>
