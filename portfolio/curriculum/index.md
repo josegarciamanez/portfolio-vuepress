@@ -4,4 +4,4 @@ title: curriculum
 ---
 <Hero :text="$page.frontmatter.hero_text" />
 
-<SingleProjectHeader />
+# CURRICULUM WORKS
