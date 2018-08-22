@@ -24,17 +24,6 @@
         />
         <Content/>
       </div>
-
-      <!-- Journal list -->
-      <div v-if="$route.path === '/journal/'" class="journal-list">
-        <Content />
-      </div>
-
-      <!-- Single journal -->
-      <div v-if="isSingleJournal" class="single-journal">
-        <Content/>
-      </div>
-
     </div>
 
     <Footer />
@@ -49,13 +38,6 @@
         const worksRoute = '/works/'
         const path = this.$route.path
         if (path.includes('works') && path.length >= (worksRoute.length + 1)) {
-          return true
-        }
-      },
-      isSingleJournal() {
-        const journalRoute = '/journal/'
-        const path = this.$route.path
-        if (path.includes('journal') && path.length >= (journalRoute.length + 1)) {
           return true
         }
       }
@@ -81,7 +63,7 @@
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
   :root {
     --color-black: #1c1c1c;
     --color-highlight: rgba(249, 233, 172, 0.99);
@@ -109,7 +91,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
