@@ -1,76 +1,41 @@
 <template>
-  <header
-    class="header"
-    :style="sticky && {
-      position: 'fixed',
-      top: '0',
-      left: '0',
-      width: '100%',
-    }"
-  >
-
+  <header class="header" :style="sticky && {
+          position: 'relative',
+          top: '0',
+          left: '0',
+          width: '100%',
+        }">
+  
     <nav v-if="navLinks" class="navigation left desktop-nav">
       <ul>
-        <router-link
-          v-for="nav in navLinks"
-          :key="nav.text"
-          v-if="nav.position === 'left' && !nav.external"
-          tag="li"
-          :to="nav.link"
-          active-class="active"
-          v-text="nav.text"
-          exact
-        />
+        <router-link v-for="nav in navLinks" :key="nav.text" v-if="nav.position === 'left' && !nav.external" tag="li" :to="nav.link" active-class="active" v-text="nav.text" exact />
         <li v-for="nav in navLinks" v-if="nav.position === 'left' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
       </ul>
     </nav>
-
+  
     <div class="brand">
       <router-link to="/">
-        <div
-          v-if="logo"
-          class="logo"
-          :style="{ backgroundImage: `url(${logo})`}"
-          :title="$site.title"
-        />
+        <div v-if="logo" class="logo" :style="{ backgroundImage: `url(${logo})`}" :title="$site.title" />
         <span v-else>{{ $site.title }}</span>
       </router-link>
     </div>
-
+  
     <nav v-if="navLinks" class="navigation right desktop-nav">
       <ul>
-        <router-link
-          v-for="nav in navLinks"
-          :key="nav.text"
-          v-if="nav.position === 'right' && !nav.external"
-          tag="li"
-          :to="nav.link"
-          active-class="active"
-          v-text="nav.text"
-          exact
-        />
+        <router-link v-for="nav in navLinks" :key="nav.text" v-if="nav.position === 'right' && !nav.external" tag="li" :to="nav.link" active-class="active" v-text="nav.text" exact />
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
       </ul>
     </nav>
-
+  
     <div class="mobile-nav-toggle" @click="toggleMobileNav" />
     <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
       <nav>
         <ul @click="toggleMobileNav">
-          <router-link
-            v-for="nav in navLinks"
-            :key="nav.text"
-            v-if="!nav.external"
-            tag="li"
-            :to="nav.link"
-            active-class="active"
-            v-text="nav.text"
-            exact
-          />
+          <router-link v-for="nav in navLinks" :key="nav.text" v-if="!nav.external" tag="li" :to="nav.link" active-class="active" v-text="nav.text" exact />
           <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
             <a :href="nav.link" target="_blank">{{ nav.text }}</a>
           </li>
@@ -78,7 +43,7 @@
         <div class="mobile-nav-close" @click="toggleMobileNav" />
       </nav>
     </div>
-
+  
   </header>
 </template>
 
@@ -113,8 +78,9 @@
 </script>
 
 <style scoped>
-
+  @import url('https://fonts.googleapis.com/css?family=Comfortaa');
   .header {
+    font-family: 'Comfortaa', cursive;
     display: flex;
     position: relative;
     align-items: center;
@@ -124,8 +90,16 @@
     font-size: 0.8rem;
     font-weight: 600;
     z-index: 10;
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    color: black;
   }
-
+  
+  .brand {
+    font-size: 1.3rem;
+    color: white;
+  }
   .logo {
     position: absolute;
     width: 3rem;
@@ -135,9 +109,9 @@
     background-repeat: no-repeat;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-
+  
   .navigation li {
     display: inline-block;
     list-style: none;
@@ -145,32 +119,38 @@
     user-select: none;
     cursor: pointer;
     border-bottom: 1px solid transparent;
+    font-size: 1rem;
   }
-
+  
   .navigation li:last-of-type {
     margin: 0;
   }
-
+  
   .navigation li:hover {
     border-bottom: 1px solid #000;
   }
-
+  
   .active {
     border-bottom: 1px solid #000;
   }
-
+  
   a {
     text-decoration: none;
     color: inherit;
   }
-
-  a:active { color: inherit; }
-  a:visited { color: inherit; }
-
+  
+  a:active {
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
   .desktop-nav {
     display: none;
   }
-
+  
   .mobile-nav {
     display: block;
     position: absolute;
@@ -189,21 +169,21 @@
     align-items: center;
     line-height: 2;
   }
-
+  
   .mobile-nav li {
     list-style: none;
     cursor: pointer;
     transition: opacity 0.15s;
   }
-
+  
   .mobile-nav li:hover {
     opacity: 0.6;
   }
-
+  
   .mobile-nav--active {
     transform: translateY(0);
   }
-
+  
   .mobile-nav-close {
     position: absolute;
     content: '';
@@ -219,7 +199,7 @@
     transition: opacity 0.15s;
     cursor: pointer;
   }
-
+  
   .mobile-nav-toggle {
     display: block;
     width: 3rem;
@@ -231,12 +211,12 @@
     transition: opacity 0.15s;
     cursor: pointer;
   }
-
+  
   .mobile-nav-toggle:hover,
   .mobile-nav-close:hover {
     opacity: 0.6;
   }
-
+  
   @media screen and (min-width: 600px) {
     .desktop-nav {
       display: block;
@@ -248,5 +228,4 @@
       display: none;
     }
   }
-
 </style>
