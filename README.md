@@ -42,3 +42,5 @@ This project has been pre-configured to work with Forestry, just import your rep
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 [Create Forestry account](https://forestry.io)
+
+JGM
