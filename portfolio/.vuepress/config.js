@@ -3,13 +3,13 @@ module.exports = {
     description: "Web Developer",
     base: "/",
     themeConfig: {
-        logo: "/upload/logo.svg",
+        logo: "",
         footer: "Ⓒ josegarciamanez",
         nav: [
-            { text: "Works", link: "/", position: "left", external: false },
-            { text: "Instagram", link: "https://www.instagram.com/its.nwa/", position: "left", external: true },
-            { text: "Say hi!", link: "mailto:sayhi@mydomain.com", position: "right", external: true },
-            { text: 'Journal', link: '/journal/', position: 'right', external: false },
+            { text: "Portfolio", link: "/", position: "left", external: false },
+            { text: "Facebook", link: "https://www.facebook.com/profile.php?id=590082247", position: "left", external: true },
+            { text: "Email", link: "mailto:josegarciamanez@gmail.com", position: "right", external: true },
+            { text: 'Tlfn: 600083031', link: '', position: 'right', external: false },
         ]
     },
     head: [
