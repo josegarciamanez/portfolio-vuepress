@@ -102,14 +102,15 @@
   }
   .logo {
     position: absolute;
-    width: 8.4rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     left: 50%;
-    top: 50%;
+    top: 90px;
     transform: translate(-50%, -50%);
   }
   
@@ -161,7 +162,7 @@
     width: 100vw;
     height: 100vh;
     padding: 2rem;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: transform 0.35s ease-in-out;
     text-align: center;
     font-size: 2rem;
@@ -234,8 +235,8 @@
      .logo {
       position: relative;
       float: left !important;
-      width: 5rem;
-      height: 3.5rem;
+      width: 4rem;
+      height: 4rem;
       top: 30px;
     }
   }

@@ -9,7 +9,7 @@
       <div
         v-if="$route.path === '/'"
         :style="{
-          marginTop: '-10vw'
+          marginTop: '-5vw'
         }"
       >
         <Content/>
@@ -31,7 +31,7 @@
       <div
         v-if="$route.path === '/curriculum/'"
         :style="{
-          marginTop: '-10vw'
+          marginTop: '-7vw'
         }"
       >
         <Content/>
@@ -78,7 +78,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
   :root {
     --color-black: #1c1c1c;
-    --color-highlight: rgba(249, 233, 172, 0.99);
+    --color-highlight: white;
   }
 
   * {

@@ -42,7 +42,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* margin-bottom: 5vw; */
+    /* margin-bottom: 2vw; */
     cursor: pointer;
   }
 
