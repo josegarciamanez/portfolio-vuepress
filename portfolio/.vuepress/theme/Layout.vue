@@ -26,6 +26,18 @@
       </div>
     </div>
 
+    <div class="container">
+      <!-- curriculum -->
+      <div
+        v-if="$route.path === '/curriculum/'"
+        :style="{
+          marginTop: '-10vw'
+        }"
+      >
+        <Content/>
+      </div>
+    </div>
+
     <Footer />
 
   </div>

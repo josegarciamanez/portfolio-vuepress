@@ -1,6 +1,10 @@
 ---
 hero_text: "<strong>José García Máñez</strong><br>Web Developer"
 title: curriculum
+lang: es-ES
+meta:
+  - name: curriculum
+  - content: curriculum vitae
 ---
 <Hero :text="$page.frontmatter.hero_text" />
 
