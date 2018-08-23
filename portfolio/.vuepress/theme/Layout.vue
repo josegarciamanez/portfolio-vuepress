@@ -112,13 +112,13 @@
   }
 
 #background-wrap {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   bottom: 0;
 	left: 0;
 	right: 0;
 	top: 0;
-	z-index: -10;
+	z-index: -1;
 }
 
 /* KEYFRAMES */
@@ -152,28 +152,28 @@
 
 @-webkit-keyframes sideWays { 
     0% { 
-        margin-left:0px;
+        margin-right:0px;
     }
     100% { 
-        margin-left:50px;
+        margin-right:80px;
     }
 }
 
 @-moz-keyframes sideWays { 
     0% { 
-        margin-left:0px;
+        margin-right:0px;
     }
     100% { 
-        margin-left:50px;
+        margin-right:80px;
     }
 }
 
 @keyframes sideWays { 
     0% { 
-        margin-left:0px;
+        margin-right:0px;
     }
     100% { 
-        margin-left:50px;
+        margin-right:80px;
     }
 }
 
@@ -184,7 +184,7 @@
 	-moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
 	animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
 	
-	left: -5%;
+	left: 25%;
 	top: 5%;
 	
 	-webkit-transform: scale(0.6);
@@ -288,7 +288,7 @@
 	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
 	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
 	
-	left: 90%;
+	left: 65%;
 	top: 50%;
 	
 	-webkit-transform: scale(0.6);
@@ -352,49 +352,11 @@
   body {
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	  background-size: 400% 400%;
-	  -webkit-animation: Gradient 15s ease infinite;
-	  -moz-animation: Gradient 15s ease infinite;
-	  animation: Gradient 15s ease infinite;
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
     color: var(--color-black);
   }
-
-  @-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
   img {
     width: 100%;
