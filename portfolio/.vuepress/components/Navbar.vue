@@ -90,12 +90,48 @@
     font-size: 0.8rem;
     font-weight: 600;
     z-index: 10;
-    background: #8360c3;
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
-    background: linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	  background-size: 400% 200%;
+	  -webkit-animation: Gradient 12s ease infinite;
+	  -moz-animation: Gradient 12s ease infinite;
+	  animation: Gradient 12s ease infinite;
     color: black;
   }
-  
+   @-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
   .brand {
     font-size: 1.3rem;
     color: white;
