@@ -1,5 +1,5 @@
 ---
-hero_text: "<strong>José García Máñez</strong><br>Web Developer"
+hero_text: "<strong>Currículum</strong>"
 title: curriculum
 lang: es-ES
 meta:
