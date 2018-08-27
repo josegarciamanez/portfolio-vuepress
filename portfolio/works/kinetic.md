@@ -1,6 +1,6 @@
 ---
 title: kinetic
-date: 2018-07-01 00:00:00 +0000
+date: 2018-05-01 00:00:00 +0000
 thumbnail: "/upload/kinetic.png"
 year: 2018
 categories:

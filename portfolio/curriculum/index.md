@@ -11,7 +11,7 @@ meta:
 
 # Presentación
 
-Desde bien pequeño he sido un apasionado en dos campos bien distintos; la música y la informática. Estudié la carrera de Música con especialidad en Percusión y he trabajado en el campo de la educación musical por más de 30 años. La música me ha ayudado a ser disciplinado y constante.
+Desde bien pequeño he sido un apasionado en dos campos bien distintos; la música y la informática. Estudié la carrera de Música con especialidad en Percusión y he trabajado en el campo de la educación musical por más de 20 años. La música me ha ayudado a ser disciplinado y constante.
 
 Esa espinita que tenía clavada con la informática me llevó a continuar estudiando y descubrir mi gran pasión actual.
 
