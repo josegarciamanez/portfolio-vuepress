@@ -11,7 +11,7 @@ categories:
 description: Sitio Web de fotografía y diseño creado en wordpress con implementaciones y diseño propio.
 ---
 
-# [garmaestudio.com](https://garmaestudio.com)
+### [garmaestudio.com](https://garmaestudio.com)
 
 Sitio Web de fotografía y diseño creado en wordpress con implementaciones y diseño propio.
 

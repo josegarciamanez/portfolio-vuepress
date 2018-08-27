@@ -11,7 +11,7 @@ categories:
 description: PWA / BLOG Creado en Vuepress sobre Vue.js
 ---
 
-# [vuenaspracticas.io](https://vuenaspracticas.io/)
+### [vuenaspracticas.io](https://vuenaspracticas.io/)
 
 PWA / BLOG Creado en Vuepress sobre Vue.js
 Diseño y Desarrollo Vuepress.

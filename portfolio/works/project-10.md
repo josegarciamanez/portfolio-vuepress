@@ -11,9 +11,9 @@ categories:
 description: Vue.js App.
 ---
 
-# [marvelvueapp](https://marvelvueapp.firebaseapp.com/)
+### [marvelvueapp](https://marvelvueapp.firebaseapp.com/)
 
 Vue.js App.
 API REST Marvel.com y hosting en firebase.
 
-![marvelvueapp](/upload/marvelvueapp.png)
+![marvelvueapp](/upload/marvelvue.png)

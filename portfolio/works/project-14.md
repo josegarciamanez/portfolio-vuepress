@@ -12,7 +12,7 @@ categories:
 description: SPA-SIMPLE
 ---
 
-# [spa-simple](https://garma-webpage.herokuapp.com/)
+### [spa-simple](https://garma-webpage.herokuapp.com/)
 
 SPA-SIMPLE utilizando Node.js, Handlebars, Bootstrap4 y Luxbar.
 Deploy en Heroku.
