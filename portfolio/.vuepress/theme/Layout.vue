@@ -160,6 +160,10 @@
     padding: 0 5vw;
   }
 
+  img[alt=htmlLogo], img[alt=cssLogo] { 
+    width: 50px;
+  }
+
   h1,h2,h3,h4,h5,h6,p {
     width: 100%;
     max-width: 800px;

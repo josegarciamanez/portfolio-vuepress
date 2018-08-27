@@ -1,18 +1,18 @@
 ---
-title: Proyecto 1
-date: 2018-08-01 00:00:00 +0000
-thumbnail: "/upload/photo-1490013616775-3ca8865fb129.jpeg"
-year: 2018
+title: garmaestudio.com
+date: 2017-08-01 00:00:00 +0000
+thumbnail: "/upload/garmaestudio.png"
+year: 2017
 categories:
-- wordpress
-- html
-- css
-- javascript
-description: descripción
-
+  - wordpress
+  - html
+  - css
+  - javascript
+description: Sitio Web de fotografía y diseño creado en wordpress con implementaciones y diseño propio.
 ---
-# Proyecto 1
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# [garmaestudio.com](https://garmaestudio.com)
 
-![](/upload/photo-1490013616775-3ca8865fb129.jpeg)
+Sitio Web de fotografía y diseño creado en wordpress con implementaciones y diseño propio.
+
+![garmaestudio.com](/upload/garmaestudio.png)
