@@ -1,5 +1,5 @@
 ---
-title: marvelvueapp
+title: marvelvue
 date: 2018-06-01 00:00:00 +0000
 thumbnail: "/upload/marvelvue.png"
 year: 2018

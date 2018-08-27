@@ -1,5 +1,5 @@
 ---
-title: hiperfitness.es
+title: hiperfitness
 date: 2016-08-01 00:00:00 +0000
 thumbnail: "/upload/hiperfitness.png"
 year: 2016

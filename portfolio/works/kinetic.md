@@ -1,5 +1,5 @@
 ---
-title: kineticpercussion.com
+title: kinetic
 date: 2017-10-01 00:00:00 +0000
 thumbnail: "/upload/kinetic.png"
 year: 2017

@@ -1,5 +1,5 @@
 ---
-title: siscoaparici.com
+title: siscoaparici
 date: 2018-03-01 00:00:00 +0000
 thumbnail: "/upload/sisco.png"
 year: 2018

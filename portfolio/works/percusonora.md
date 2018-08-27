@@ -1,5 +1,5 @@
 ---
-title: percusonora.com
+title: percusonora
 date: 2017-12-01 00:00:00 +0000
 thumbnail: "/upload/percusonora.png"
 year: 2017

@@ -1,5 +1,5 @@
 ---
-title: garmaestudio.com
+title: garmaestudio
 date: 2017-08-01 00:00:00 +0000
 thumbnail: "/upload/garmaestudio.png"
 year: 2017

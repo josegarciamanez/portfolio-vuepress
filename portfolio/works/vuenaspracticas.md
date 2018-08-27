@@ -1,5 +1,5 @@
 ---
-title: vuenaspracticas.io
+title: vuenaspracticas
 date: 2017-08-01 00:00:00 +0000
 thumbnail: "/upload/vuenaspracticas.png"
 year: 2017
