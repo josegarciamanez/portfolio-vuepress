@@ -11,7 +11,7 @@ categories:
 description: Sitio Web del duo Kinetic Percussion.
 ---
 
-### [kineticpercussion.com(https://kineticpercussion.com/)
+### [kineticpercussion.com](https://kineticpercussion.com/)
 
 Sitio Web del duo Kinetic Percussion.
 Diseño y Desarrollo en Wordpress.
