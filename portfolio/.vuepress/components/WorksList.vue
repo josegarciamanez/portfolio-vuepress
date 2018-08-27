@@ -48,12 +48,18 @@ export default {
   cursor: pointer;
 }
 
+.info:hover {
+  transform: scale(1.1);
+}
+
 .info {
   position: absolute;
   left: 0;
   top: 2rem;
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 1);
+  background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  opacity: 0.8;
+  color: white;
   max-width: 400px;
 }
 

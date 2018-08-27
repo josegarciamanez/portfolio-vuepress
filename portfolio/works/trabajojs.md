@@ -1,8 +1,8 @@
 ---
 title: trabajojs
-date: 2016-08-01 00:00:00 +0000
+date: 2015-08-01 00:00:00 +0000
 thumbnail: "/upload/javascript.png"
-year: 2016
+year: 2015
 categories:
   - html
   - css

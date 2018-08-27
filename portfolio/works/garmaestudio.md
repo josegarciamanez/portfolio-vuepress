@@ -1,8 +1,8 @@
 ---
 title: garmaestudio
-date: 2017-08-01 00:00:00 +0000
+date: 2018-08-05 00:00:00 +0000
 thumbnail: "/upload/garmaestudio.png"
-year: 2017
+year: 2018
 categories:
   - wordpress
   - html

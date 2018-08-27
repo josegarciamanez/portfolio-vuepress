@@ -1,8 +1,8 @@
 ---
 title: kinetic
-date: 2017-10-01 00:00:00 +0000
+date: 2018-07-01 00:00:00 +0000
 thumbnail: "/upload/kinetic.png"
-year: 2017
+year: 2018
 categories:
   - wordpress
   - html

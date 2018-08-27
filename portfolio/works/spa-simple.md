@@ -1,8 +1,8 @@
 ---
 title: spa-simple
-date: 2017-08-01 00:00:00 +0000
+date: 2015-08-01 00:00:00 +0000
 thumbnail: "/upload/simplespa.png"
-year: 2017
+year: 2015
 categories:
   - node.js
   - handlebars

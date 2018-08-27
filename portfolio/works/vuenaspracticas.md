@@ -1,8 +1,8 @@
 ---
 title: vuenaspracticas
-date: 2017-08-01 00:00:00 +0000
+date: 2016-08-01 00:00:00 +0000
 thumbnail: "/upload/vuenaspracticas.png"
-year: 2017
+year: 2016
 categories:
   - vuepress
   - html

@@ -1,8 +1,8 @@
 ---
 title: marvelvue
-date: 2018-06-01 00:00:00 +0000
+date: 2016-06-01 00:00:00 +0000
 thumbnail: "/upload/marvelvue.png"
-year: 2018
+year: 2016
 categories:
   - vue.js
   - html

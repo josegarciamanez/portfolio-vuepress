@@ -1,8 +1,8 @@
 ---
 title: hiperfitness
-date: 2016-08-01 00:00:00 +0000
+date: 2018-08-10 00:00:00 +0000
 thumbnail: "/upload/hiperfitness.png"
-year: 2016
+year: 2018
 categories:
   - prestashop
   - html

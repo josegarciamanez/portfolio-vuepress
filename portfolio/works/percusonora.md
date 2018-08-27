@@ -1,8 +1,8 @@
 ---
 title: percusonora
-date: 2017-12-01 00:00:00 +0000
+date: 2018-12-01 00:00:00 +0000
 thumbnail: "/upload/percusonora.png"
-year: 2017
+year: 2018
 categories:
   - wordpress
   - html

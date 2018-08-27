@@ -1,8 +1,8 @@
 ---
 title: marvelangular
-date: 2018-08-01 00:00:00 +0000
+date: 2016-08-01 00:00:00 +0000
 thumbnail: "/upload/marvelangular.png"
-year: 2018
+year: 2016
 categories:
   - Angular
   - html
