@@ -38,7 +38,7 @@ export default {
 .post {
   position: relative;
   float: left;
-  width: 50%;
+  width: 47%;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -46,6 +46,7 @@ export default {
   /* margin-bottom: 2vw; */
   border: 1px solid black;
   cursor: pointer;
+  margin: 5px;
 }
 
 .info:hover {
