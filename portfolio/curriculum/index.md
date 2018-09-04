@@ -11,10 +11,9 @@ meta:
 
 # Me presento
 
-De siempre he sido un apasionado en dos campos bien distintos; la música y la informática. Estudié la carrera de Música con especialidad en Percusión y he trabajado en la educación musical más de 20 años. La música me ha ayudado a ser disciplinado y constante.
+De siempre he sido un apasionado en dos campos bien distintos; la música y la informática. Estudié la carrera de Música con especialidad en Percusión y he trabajado en el campo de la educación musical por más de 20 años. La música me ha ayudado a ser disciplinado y constante.
 
-Mi historia con la informática empezó cuando sentí inquietud con aquello del "html" que empezaba a tomar forma hayá por los 90..., y continué leyendo y haciendo mis primeros experimentos hasta descubrir "Flash". Aquella nueva tecnología era el futuro..., y comencé mi nuevo andadura estudiando todo aquello. Al poco tiempo estaba haciendo banners para una empresa de Marketing Digital y me daba para sacar algún dinero. Posteriormente empecé a trabajar en una empresa de telefonía con una web completa en Flash y Action Script a la vez que llevaba la tienda Online.
-Hace unos años, decidí ponerme al día con los nuevas herramientas y lenguajes de programación web y me subí otra vez al carro del desarrollo web.
+Esa espinita que tenía clavada con la informática me llevó a continuar aprendiendo y descubrir mi gran pasión actual.
 
 ## DESARROLLO WEB Y COMERCIO ON-LINE
 
