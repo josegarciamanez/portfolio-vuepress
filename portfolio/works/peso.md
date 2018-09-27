@@ -13,7 +13,10 @@ description: WebApp para Control de Peso.
 
 ### [app-peso](https://peso-app.firebaseapp.com/)
 
-Portfolio Web Modelo Infantil.
-Diseño y Desarrollo en Angular y host firebase.
+Aplicación Web con Vue.js para control de peso.
+Data persistente en localStorage.
+Materialize.css
+Moment.js
+Highcharts.js
 
 ![app-peso](/upload/peso.png)
