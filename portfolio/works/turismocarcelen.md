@@ -1,7 +1,7 @@
 ---
 title: turismocarcelen
 date: 2018-08-01 00:00:00 +0000
-thumbnail: "/upload/carcelen.png"
+thumbnail: "/upload/carcelen.jpg"
 year: 2018
 categories:
   - wordpress
@@ -17,4 +17,4 @@ Portal de turismo del pueblo de Carcelén (Albacete).
 
 Diseño y desarrollo íntegro del sitio web.
 
-![turismocarcelen.com](/upload/carcelen.png)
+![turismocarcelen.com](/upload/carcelen.jpg)

@@ -1,7 +1,7 @@
 ---
 title: hiperfitness
 date: 2018-08-10 00:00:00 +0000
-thumbnail: "/upload/hiperfitness.png"
+thumbnail: "/upload/hiperfitness.jpg"
 year: 2018
 categories:
   - prestashop
@@ -17,4 +17,4 @@ Tienda On-Line de productos de nutrición.
 
 Diseño y Desarrollo en Prestashop.
 
-![hiperfitness.es](/upload/hiperfitness.png)
+![hiperfitness.es](/upload/hiperfitness.jpg)

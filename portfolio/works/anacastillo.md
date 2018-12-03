@@ -1,7 +1,7 @@
 ---
 title: anacastillo
 date: 2018-04-01 00:00:00 +0000
-thumbnail: "/upload/ana.png"
+thumbnail: "/upload/ana.jpg"
 year: 2018
 categories:
   - wordpress
@@ -16,4 +16,4 @@ description: Sitio Web de la Pianista Alicantina Ana Castillo.
 Sitio Web de la Pianista Alicantina Ana Castillo.
 Diseño y Desarrollo en Wordpress.
 
-![anacastillopiano.es](/upload/ana.png)
+![anacastillopiano.es](/upload/ana.jpg)

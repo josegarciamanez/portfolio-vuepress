@@ -1,7 +1,7 @@
 ---
 title: siscoaparici
 date: 2018-03-01 00:00:00 +0000
-thumbnail: "/upload/sisco.png"
+thumbnail: "/upload/sisco.jpg"
 year: 2018
 categories:
   - wordpress
@@ -16,4 +16,4 @@ description: Sitio Web del percusionista Valenciano Sisco Aparici.
 Sitio Web del percusionista Valenciano Sisco Aparici.
 Diseño y Desarrollo en Wordpress.
 
-![https://siscoaparici.com/](/upload/sisco.png)
+![https://siscoaparici.com/](/upload/sisco.jpg)

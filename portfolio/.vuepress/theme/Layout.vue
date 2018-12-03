@@ -177,7 +177,7 @@ p {
 }
 
 a {
-  color: white;
+  color: #e73c7e;
   text-decoration: none;
 }
 

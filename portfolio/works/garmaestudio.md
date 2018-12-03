@@ -1,7 +1,7 @@
 ---
 title: garmaestudio
 date: 2018-08-05 00:00:00 +0000
-thumbnail: "/upload/garmaestudio.png"
+thumbnail: "/upload/garmaestudio.jpg"
 year: 2018
 categories:
   - wordpress
@@ -15,4 +15,4 @@ description: Sitio Web de fotografía y diseño creado en wordpress con implemen
 
 Sitio Web de fotografía y diseño creado en wordpress con implementaciones y diseño propio.
 
-![garmaestudio.com](/upload/garmaestudio.png)
+![garmaestudio.com](/upload/garmaestudio.jpg)

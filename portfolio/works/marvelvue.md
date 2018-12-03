@@ -1,7 +1,7 @@
 ---
 title: marvelvue
 date: 2016-06-01 00:00:00 +0000
-thumbnail: "/upload/marvelvue.png"
+thumbnail: "/upload/marvelvue.jpg"
 year: 2016
 categories:
   - vue.js
@@ -16,4 +16,4 @@ description: Vue.js App.
 Vue.js App.
 API REST Marvel.com y hosting en firebase.
 
-![marvelvueapp](/upload/marvelvue.png)
+![marvelvueapp](/upload/marvelvue.jpg)

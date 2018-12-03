@@ -1,7 +1,7 @@
 ---
 title: abril
 date: 2017-08-01 00:00:00 +0000
-thumbnail: "/upload/abril.png"
+thumbnail: "/upload/abril.jpg"
 year: 2017
 categories:
   - Angular
@@ -16,4 +16,4 @@ description: Portfolio Web Modelo Infantil.
 Portfolio Web Modelo Infantil.
 Diseño y Desarrollo en Angular y host firebase.
 
-![abril-portfolio](/upload/abril.png)
+![abril-portfolio](/upload/abril.jpg)

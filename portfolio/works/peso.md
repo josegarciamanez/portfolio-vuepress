@@ -1,7 +1,7 @@
 ---
 title: app-peso
 date: 2018-09-27 00:00:00 +0000
-thumbnail: "/upload/peso.png"
+thumbnail: "/upload/peso.jpg"
 year: 2018
 categories:
   - Vue.js
@@ -19,4 +19,4 @@ Materialize.css
 Moment.js
 Highcharts.js
 
-![app-peso](/upload/peso.png)
+![app-peso](/upload/peso.jpg)

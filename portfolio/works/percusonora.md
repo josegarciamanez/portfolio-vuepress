@@ -1,7 +1,7 @@
 ---
 title: percusonora
 date: 2018-12-01 00:00:00 +0000
-thumbnail: "/upload/percusonora.png"
+thumbnail: "/upload/percusonora.jpg"
 year: 2018
 categories:
   - wordpress
@@ -16,4 +16,4 @@ description: Sitio Web del percusionista Valenciano Marc Moreno.
 Sitio Web del percusionista Valenciano Marc Moreno.
 Diseño y Desarrollo en Wordpress.
 
-![percusonora.com](/upload/percusonora.png)
+![percusonora.com](/upload/percusonora.jpg)

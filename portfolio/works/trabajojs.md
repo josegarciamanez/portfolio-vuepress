@@ -1,7 +1,7 @@
 ---
 title: trabajojs
 date: 2015-08-01 00:00:00 +0000
-thumbnail: "/upload/javascript.png"
+thumbnail: "/upload/javascript.jpg"
 year: 2015
 categories:
   - html
@@ -15,4 +15,4 @@ description: Trabajo Final del módulo de JavaScript.
 Trabajo Final del módulo de JavaScript.
 Deploy en Firebase Hosting.
 
-![trabajojs](/upload/javascript.png)
+![trabajojs](/upload/javascript.jpg)

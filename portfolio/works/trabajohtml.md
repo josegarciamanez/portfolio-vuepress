@@ -1,7 +1,7 @@
 ---
 title: trabajohtml
 date: 2015-08-01 00:00:00 +0000
-thumbnail: "/upload/html.png"
+thumbnail: "/upload/html.jpg"
 year: 2015
 categories:
   - html
@@ -14,4 +14,4 @@ description: Trabajo Final del módulo de Html y Css.
 Trabajo Final del módulo de Html y Css.
 Desarrollo único en Html y Css, Deploy en Firebase Hosting.
 
-![trabajohtml](/upload/html.png)
+![trabajohtml](/upload/html.jpg)

@@ -1,7 +1,7 @@
 ---
 title: spa-simple
 date: 2015-08-01 00:00:00 +0000
-thumbnail: "/upload/simplespa.png"
+thumbnail: "/upload/simplespa.jpg"
 year: 2015
 categories:
   - node.js
@@ -17,4 +17,4 @@ description: SPA-SIMPLE
 SPA-SIMPLE utilizando Node.js, Handlebars, Bootstrap4 y Luxbar.
 Deploy en Heroku.
 
-![spa-simple](/upload/simplespa.png)
+![spa-simple](/upload/simplespa.jpg)
