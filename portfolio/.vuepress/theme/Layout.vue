@@ -104,7 +104,8 @@ export default {
 body {
   font-family: "Comfortaa", cursive;
   font-size: 16px;
-  background-color: var(--color-highlight);
+  /* background-color: var(--color-highlight); */
+  background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=99ebbdff&noise=f5f0f5&density=55&opacity=72");
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
